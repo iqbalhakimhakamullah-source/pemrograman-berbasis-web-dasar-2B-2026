@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Iqbal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">porto gw</div>
+            <div class="flex gap-4 text-sm">
+                <a href="#home" class="hover:text-blue-600">Home</a>
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#projects" class="hover:text-blue-600">Projects</a>
+                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="container max-w-6xl mx-auto margin-px100 px-3 py-16 flex flex-col md:flex-row items-center gap-8">
+        <div class="flex-1 text-center md:text-left">
+            <h1 class="text-3xl font-bold mb-2">Halo, Saya <span class="text-blue-600">Iqbal Hakim Hakamullah</span></h1>
+            <p class="text-gray-600 mb-4">Mahasiswa | Web Developer Pemula</p>
+            <p class="text-gray-500">Saya suka belajar membuat website sederhana dan menarik</p>
+        </div>
+        <div class="flex-1 flex justify-center">
+            <div class="w-32 h-32 bg-blue-500 rounded-full flex items-center justify-center text-white text-4xl">
+                <img src="foto gua jir.png" alt="foto iqbal" class="w-full h-full object-cover rounded-full">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-white py-12">
+        <div class="container max-w-6xl mx-auto px-3">
+            <h2 class="text-2xl font-bold text-center mb-6">Tentang Saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <p class="text-gray-600">Saya mahasiswa semester 4 yang sedang belajar web development. Saat ini saya sedikit menguasai HTML, CSS, , bootstrap dan Tailwind.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <p class="text-gray-600">Saya tertarik membangun website yang fungsional dan user-friendly. Saya juga suka belajar hal baru setiap hari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container max-w-6xl mx-auto px-3">
+            <h2 class="text-2xl font-bold text-center mb-6">Skill & Pengalaman</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-lg overflow-hidden shadow-md">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="py-3 px-4 text-left">No</th>
+                            <th class="py-3 px-4 text-left">Skill</th>
+                            <th class="py-3 px-4 text-left">Level</th>
+                            <th class="py-3 px-4 text-left">Pengalaman</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">1</td>
+                            <td class="py-3 px-4">HTML & CSS</td>
+                            <td class="py-3 px-4"><span class="bg-green-100 text-green-700 px-2 py-1 rounded">dasar</span></td>
+                            <td class="py-3 px-4">8 bulan</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">2</td>
+                            <td class="py-3 px-4">Tailwind CSS</td>
+                            <td class="py-3 px-4"><span class="bg-blue-100 text-blue-700 px-2 py-1 rounded">dasar</span></td>
+                            <td class="py-3 px-4">1 bulan</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">4</td>
+                            <td class="py-3 px-4">Git & GitHub</td>
+                            <td class="py-3 px-4"><span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded">Pemula</span></td>
+                            <td class="py-3 px-4">8 bulan</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-white py-12">
+        <div class="container max-w-6xl mx-auto px-3">
+            <h2 class="text-2xl font-bold text-center mb-6">Proyek Saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Card 1 -->
+                <div class="border rounded-lg p-4 hover:shadow-lg transition">
+                    <div class="bg-blue-100 h-32 rounded-lg flex items-center justify-center text-3xl mb-3">
+                        📄
+                    </div>
+                    <h3 class="font-bold text-lg">cv</h3>
+                    <p class="text-gray-500 text-sm">Info tentang saya</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="border rounded-lg p-4 hover:shadow-lg transition">
+                    <div class="bg-purple-100 h-32 rounded-lg flex items-center justify-center text-3xl mb-3">
+                        🎨
+                    </div>
+                    <h3 class="font-bold text-lg">Landing Page</h3>
+                    <p class="text-gray-500 text-sm">Halaman profil perusahaan modern</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-12">
+        <div class="container max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-6">Hubungi Saya</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+        
+                <div class="flex-1 bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg mb-3">Informasi Kontak</h3>
+                    <table class="w-full text-sm">
+                        <tr class="border-b">
+                            <td class="py-2 font-semibold"> Email</td>
+                            <td class="py-2">iqbalhakim.hakamullah@trunodjoyo.ac.id</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 font-semibold"> Telepon</td>
+                            <td class="py-2">6283877695584</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 font-semibold"> Alamat</td>
+                            <td class="py-2">Sampang, Madura, Jawa Timur, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-semibold"> Instagram</td>
+                            <td class="py-2">@balzzneedcaffeine</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="flex-1 bg-white rounded-lg shadow-md p-4">
+                    <h3 class="font-bold text-lg mb-3">Kirim Pesan</h3>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Nama Anda" class="w-full border rounded px-3 py-2 text-sm">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Email Anda" class="w-full border rounded px-3 py-2 text-sm">
+                        </div>
+                        <div class="mb-3">
+                            <textarea rows="3" placeholder="Pesan" class="w-full border rounded px-3 py-2 text-sm"></textarea>
+                        </div>
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-4 text-sm">
+        <p>&copy; 2026 Iqbal Hakim Hakamullah - Portofolio </p>
+    </footer>
+
+</body>
+</html>
